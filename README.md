@@ -73,5 +73,3 @@ This plot illustrates the relationship between educational attainment and income
 
 *   **Impact of Hours Worked**: While not visualized in the final simplified plots, initial analysis (and permutation importance) also suggested that hours worked per week play a significant role in income levels, with those working more hours having a higher likelihood of earning >50K.
 *   **Feature Importance**: Permutation importance highlighted `educational-num`, `age`, `hours-per-week`, `fnlwgt`, `Has_Capital_Gain`, `Exec-managerial` occupation, and `Married-civ-spouse` marital status as the most influential features for income prediction.
-
-suggestions, please open an issue in this repository.

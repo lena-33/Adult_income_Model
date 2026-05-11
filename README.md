@@ -4,9 +4,6 @@
 
 This project aims to predict an individual's income level (whether it's `>50K` or `<=50K` per year) based on various demographic and socioeconomic factors. The process involves data cleaning, exploratory data analysis (EDA) to uncover key trends, and building a machine learning model to make predictions. The insights derived from this analysis are presented through clear, non-technical visualizations to inform stakeholders.
 
-## Data Source
-
-The dataset used in this project is the "Adult" dataset, often sourced from the UCI Machine Learning Repository. It contains information extracted from the 1994 Census database.
 
 ## Features
 
@@ -72,13 +69,4 @@ This plot illustrates the relationship between educational attainment and income
 *   **Impact of Hours Worked**: While not visualized in the final simplified plots, initial analysis (and permutation importance) also suggested that hours worked per week play a significant role in income levels, with those working more hours having a higher likelihood of earning >50K.
 *   **Feature Importance**: Permutation importance highlighted `educational-num`, `age`, `hours-per-week`, `fnlwgt`, `Has_Capital_Gain`, `Exec-managerial` occupation, and `Married-civ-spouse` marital status as the most influential features for income prediction.
 
-## Getting Started
-
-To run this notebook:
-1.  Ensure you have a Python environment with `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, and `imblearn` installed.
-2.  Download the `adult.csv` dataset and place it in the specified path or update the `fpath` variable.
-3.  Execute the cells sequentially.
-
-## Contact
-
-For any questions or suggestions, please open an issue in this repository.
+suggestions, please open an issue in this repository.
